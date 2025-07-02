@@ -50,7 +50,7 @@ objectvar allCells
 objref strFuncs
 {strFuncs = new StringFunctions()}
 strdef host
-{system("hostname", host)}
+{system("uname -n", host)}
 {strFuncs.left(host, strFuncs.len(host)-1)}
 
 
