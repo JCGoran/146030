@@ -26,7 +26,6 @@ print  "*****************************************************"
 strdef pwd
 {system("pwd", pwd)}
 print ""
-print "Current working dir: ", pwd
 
 objectvar allCells
 {allCells = new List()}
